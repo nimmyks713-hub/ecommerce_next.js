@@ -1,0 +1,12 @@
+.addtocart{
+    background-color: #f0c14b;
+    border:1px solid #a88734;
+    padding:10px 20px;
+    font-size:16px;
+    border-radius:5px;
+    cursor: pointer;
+    margin-bottom:20px;
+}
+.addtocart:hover{
+    background-color: #e2b33c;
+}

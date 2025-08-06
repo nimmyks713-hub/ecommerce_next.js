@@ -1,0 +1,13 @@
+.contactpage{
+    margin-top:70px;
+    border:1px solid white;
+}
+.contactpage h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top:50px;
+    margin-left:40px;
+}
+.contactpage p{
+    margin-left:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

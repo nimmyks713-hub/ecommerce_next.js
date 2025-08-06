@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #003153;
+    margin-top:0px;
+}
+.main div{
+    text-align:left;
+}
+.main p{
+    color:white;
+    font-weight: bold;
+    font-size: medium;
+    margin-left:0px;
+}
+.main li{
+    list-style-type: none;
+}
+.main a{
+    text-decoration: none;
+    color:wheat;
+    font-size: small;
+}

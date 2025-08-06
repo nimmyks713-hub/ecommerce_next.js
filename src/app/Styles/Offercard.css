@@ -1,0 +1,52 @@
+.card{
+    width:290px;
+    background-color: white;
+    border-radius:12px;
+    padding:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.12);
+    text-align:center;
+    font-family: sans-serif;
+    margin:10px;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.card h4{
+    margin-bottom:12px;
+    font-size:16px;
+    color:#333;
+    font-weight: bold;
+}
+.image-container{
+    border-radius:8px;
+    margin:8px auto;
+    padding:10px;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.image-container img{
+    max-height:80px;
+    width:90px;
+    object-fit:contain;
+}
+.amazon-card-title{
+    color:#333;
+    font-size:13px;
+    margin-top: 6px;
+    margin-bottom:10px;
+}
+a{
+    color:#007185;
+    text-decoration: none;
+    font-weight:500;
+    font-size:14px;
+    display:inline-block;
+    margin-top:10px;
+}
+a:hover{
+    text-decoration: underline;
+}
