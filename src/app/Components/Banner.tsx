@@ -1,17 +1,6 @@
-'use client';
-import { useEffect } from 'react';
 
-  
 function Banner() {
-  useEffect(() => {
-    import('bootstrap/dist/js/bootstrap.bundle.min.js')
-      .then(() => {
-        console.log('✅ Bootstrap JS loaded');
-      })
-      .catch((err) => {
-        console.error('❌ Bootstrap JS load failed:', err);
-      });
-  }, []);
+  
   return (
     <div style={{ marginTop: '70px' }}>
       <div
